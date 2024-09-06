@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@*": ["./*"]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "app/blog/PostList.jsx",
+    "app/api/auth/[...nextauth]/route.js",
+    "app/layout.jsx",
+    "app/page.jsx",
+    "components/Feed.jsx",
+    "components/Form.jsx",
+    "components/Nav.jsx",
+    "components/Profile.jsx",
+    "components/PromptCard.jsx",
+    "components/Provider.jsx"
+  ],
+  "exclude": ["node_modules"]
+}
