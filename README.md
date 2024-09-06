@@ -1,0 +1,2 @@
+# Promptopia
+ NextJS Practice Project
